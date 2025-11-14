@@ -1,0 +1,365 @@
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~
+$ cd"C:\Users\Chiranjeevi\OneDrive\Desktop\Github-online"
+bash: cdC:\Users\Chiranjeevi\OneDrive\Desktop\Github-online: No such file or directory
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~
+$ cd "C:\Users\Chiranjeevi\OneDrive\Desktop\Github-online"
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ pwd
+/c/Users/Chiranjeevi/OneDrive/Desktop/Github-online
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "fourth commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Github_online.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git add *
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ cd "C:\Users\Chiranjeevi\OneDrive\Desktop\Github-online"
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ pwd
+/c/Users/Chiranjeevi/OneDrive/Desktop/Github-online
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "demo done"
+[master 726364f] demo done
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 304 bytes | 304.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chiranjeevikolla25/github_online_1.git
+   047b385..726364f  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ cd "C:\Users\Chiranjeevi\OneDrive\Desktop\Github-online"
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ pwd
+/c/Users/Chiranjeevi/OneDrive/Desktop/Github-online
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "demo done"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DMT/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git add *
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "demo done"
+[master 3c76833] demo done
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 DMT/Demo 14-11-25.txt
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 340 bytes | 170.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chiranjeevikolla25/github_online_1.git
+   726364f..3c76833  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git clone https://github.com/adas754/github_online_7.git
+Cloning into 'github_online_7'...
+remote: Enumerating objects: 24, done.
+remote: Counting objects: 100% (24/24), done.
+remote: Compressing objects: 100% (16/16), done.
+remote: Total 24 (delta 2), reused 17 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (24/24), done.
+Resolving deltas: 100% (2/2), done.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt  github_online_7/
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git clone https://github.com/catboost/tutorials.git
+Cloning into 'tutorials'...
+remote: Enumerating objects: 1021, done.
+remote: Counting objects: 100% (133/133), done.
+remote: Compressing objects: 100% (64/64), done.
+remote: Total 1021 (delta 82), reused 69 (delta 69), pack-reused 888 (from 2)
+Receiving objects: 100% (1021/1021), 47.25 MiB | 14.64 MiB/s, done.
+Resolving deltas: 100% (574/574), done.
+Updating files: 100% (103/103), done.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git pull
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 983 bytes | 44.00 KiB/s, done.
+From https://github.com/chiranjeevikolla25/github_online_1
+   3c76833..de30249  master     -> origin/master
+Updating 3c76833..de30249
+Fast-forward
+ git_training | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 git_training
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt  git_training  github_online_7/  tutorials/
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git add *
+warning: adding embedded git repository: github_online_7
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> github_online_7
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached github_online_7
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: adding embedded git repository: tutorials
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ ls
+DMT/  Github_online.txt  git_training  github_online_7/  tutorials/
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git add *
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "demo done"
+[master 9af2f7a] demo done
+ 2 files changed, 2 insertions(+)
+ create mode 160000 github_online_7
+ create mode 160000 tutorials
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 373 bytes | 373.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/chiranjeevikolla25/github_online_1.git
+   de30249..9af2f7a  master -> master
+branch 'master' set up to track 'origin/master'.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git commit -m "demo done"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    github_online_7
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git push -u origin master
+branch 'master' set up to track 'origin/master'.
+Everything up-to-date
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git branch b11
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git branch
+  b11
+* master
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (master)
+$ git checkout b11
+D       github_online_7
+Switched to branch 'b11'
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git add *
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git commit -m "demo done"
+On branch b11
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    github_online_7
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git push -u origin master
+To https://github.com/chiranjeevikolla25/github_online_1.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/chiranjeevikolla25/github_online_1.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git commit -m "b11"
+On branch b11
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    github_online_7
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git branch b12
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git branch
+* b11
+  b12
+  master
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git checkout b12
+D       github_online_7
+Switched to branch 'b12'
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b12)
+$ cd "C:\Users\Chiranjeevi\OneDrive\Desktop\Github-online"
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b12)
+$ git branch "b11"
+fatal: a branch named 'b11' already exists
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b12)
+$ git checkout b11
+D       github_online_7
+Switched to branch 'b11'
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git add *
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git commit -m "done texting"
+On branch b11
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    github_online_7
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git push -u origin b11
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (17/17), 2.12 KiB | 310.00 KiB/s, done.
+Total 17 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+remote:
+remote: Create a pull request for 'b11' on GitHub by visiting:
+remote:      https://github.com/chiranjeevikolla25/github_online_1/pull/new/b11
+remote:
+To https://github.com/chiranjeevikolla25/github_online_1.git
+ * [new branch]      b11 -> b11
+branch 'b11' set up to track 'origin/b11'.
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$ git log
+commit 9af2f7adeeb7dcd08c6ab56683a693687530ba0a (HEAD -> b11, origin/master, origin/b11, origin/HEAD, master, b12)
+Author: kollachiranjeevi25 <kolla.chiranjeevi@yahoo.com>
+Date:   Fri Nov 14 07:51:18 2025 +0530
+
+    demo done
+
+commit de30249dd7edced9405b18a1df9deb8cd71c6b53
+Author: chiranjeevikolla25 <kolla.chiranjeevi@yahoo.com>
+Date:   Fri Nov 14 07:31:44 2025 +0530
+
+    Create git_training
+
+commit 3c7683343f9ecf70ee128d18a53c5e35f73534a2
+Author: kollachiranjeevi25 <kolla.chiranjeevi@yahoo.com>
+Date:   Fri Nov 14 07:16:56 2025 +0530
+
+    demo done
+
+commit 726364f569e2d77f2f297b25e4bf23a9f84e82bb
+Author: kollachiranjeevi25 <kolla.chiranjeevi@yahoo.com>
+Date:   Fri Nov 14 07:13:22 2025 +0530
+
+    demo done
+
+commit 047b3850e884d2835ef6366cbcdb7fd1f9d8b605
+Author: kollachiranjeevi25 <kolla.chiranjeevi@yahoo.com>
+Date:   Thu Nov 13 08:43:36 2025 +0530
+
+    second commit
+
+commit 48eb04c1cf8aad2b799d191ce2d2701d59c17287
+Author: kollachiranjeevi25 <kolla.chiranjeevi@yahoo.com>
+Date:   Thu Nov 13 07:55:32 2025 +0530
+
+    first commit
+
+Chiranjeevi@DESKTOP-4KPRFL9 MINGW64 ~/OneDrive/Desktop/Github-online (b11)
+$
